@@ -36,5 +36,9 @@ case $operation in
 	"E"|"e")
 	echo "No problem, bye $name!"
 	;;
+	*)
+	echo "Sorry, that's not one of my functions. Can you try again?"
+	;;
 	
 esac
+
